@@ -1,0 +1,21 @@
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 555-123-4567",
+    "education": [
+        "BS in Computer Science, University of Example (2015-2019)",
+        "MS in Artificial Intelligence, Tech University (2019-2021)"
+    ],
+    "skills": [
+        "Python",
+        "Machine Learning",
+        "NLP",
+        "Flask",
+        "Docker",
+        "Git"
+    ],
+    "experience": [
+        "Software Engineer at Tech Corp (2021-Present)",
+        "Research Assistant at University Lab (2019-2021)"
+    ]
+} 

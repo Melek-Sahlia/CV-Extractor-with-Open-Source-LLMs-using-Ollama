@@ -1,0 +1,20 @@
+{
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "phone": "+1 (555) 234-5678",
+    "education": [
+        "Bachelor of Arts in Graphic Design, Art School (2016-2020)",
+        "Master of Fine Arts in Digital Media, Design University (2020-2022)"
+    ],
+    "experience": [
+        "Senior Designer at Creative Agency (2022-Present)",
+        "Graphic Designer at Marketing Firm (2020-2022)"
+    ],
+    "skills": [
+        "Adobe Creative Suite",
+        "UI/UX Design",
+        "Web Design",
+        "Branding",
+        "Illustration"
+    ]
+}

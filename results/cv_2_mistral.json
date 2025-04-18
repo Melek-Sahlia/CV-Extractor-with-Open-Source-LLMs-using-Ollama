@@ -1,0 +1,38 @@
+{
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1 (555) 987-6543",
+    "education": [
+        {
+            "institution": "Business School",
+            "degree": "Bachelor of Arts",
+            "field": "Business Administration",
+            "dates": "2016-2020"
+        },
+        {
+            "institution": "Top University",
+            "degree": "Master of Business Administration",
+            "field": "",
+            "dates": "2020-2022"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Global Corp",
+            "position": "Marketing Manager",
+            "dates": "2022-Present"
+        },
+        {
+            "company": "Consulting Firm",
+            "position": "Business Analyst",
+            "dates": "2020-2022"
+        }
+    ],
+    "skills": [
+        "Project Management",
+        "Data Analysis",
+        "Marketing",
+        "Leadership",
+        "Communication"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "John Smith",
+    "email": "john@example.com",
+    "phone": "123-456-7890",
+    "education": [
+        {
+            "institution": "University",
+            "degree": "Bachelor's",
+            "field": "Computer Science",
+            "dates": "2015-2019"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Tech Company",
+            "position": "Software Engineer",
+            "dates": "2017-Present",
+            "description": "Developing applications"
+        }
+    ],
+    "skills": [
+        "Python",
+        "JavaScript"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Sarah Williams",
+    "email": "sarah.williams@example.com",
+    "phone": "+1 (555) 789-0123",
+    "education": [
+        "Bachelor of Science in Biology, Science University (2015-2019)",
+        "Master of Science in Biotechnology, Research Institute (2019-2021)"
+    ],
+    "experience": [
+        "Research Scientist at Biotech Corp (2021-Present)",
+        "Lab Technician at Research Center (2019-2021)"
+    ],
+    "skills": [
+        "Molecular Biology",
+        "Data Analysis",
+        "Laboratory Techniques",
+        "Research",
+        "Python"
+    ]
+}

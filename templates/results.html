@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Extraction Results - ScaleX Innovation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="text-center">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="ScaleX Innovation Logo" class="logo">
+            <h1 class="mb-4">CV Extraction Results</h1>
+        </div>
+
+        <!-- Personal Information Section -->
+        <div class="result-section">
+            <h2 class="section-title">Personal Information</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <strong>Name:</strong>
+                </div>
+                <div class="col-md-8">
+                    {{ data.name if data.name else 'Not found' }}
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-4">
+                    <strong>Email:</strong>
+                </div>
+                <div class="col-md-8">
+                    {{ data.email if data.email else 'Not found' }}
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-4">
+                    <strong>Phone:</strong>
+                </div>
+                <div class="col-md-8">
+                    {{ data.phone if data.phone else 'Not found' }}
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="result-section">
+            <h2 class="section-title">Education</h2>
+            {% if data.education and data.education|length > 0 %}
+                {% for edu in data.education %}
+                    <div class="education-item">
+                        {% if edu is mapping %}
+                            <h5>{{ edu.institution if edu.institution else 'Unknown Institution' }}</h5>
+                            <p><strong>Degree:</strong> {{ edu.degree if edu.degree else 'N/A' }}</p>
+                            <p><strong>Field:</strong> {{ edu.field if edu.field else 'N/A' }}</p>
+                            <p><strong>Dates:</strong> {{ edu.dates if edu.dates else 'N/A' }}</p>
+                        {% else %}
+                            <p>{{ edu }}</p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p>No education information found.</p>
+            {% endif %}
+        </div>
+
+        <!-- Experience Section -->
+        <div class="result-section">
+            <h2 class="section-title">Work Experience</h2>
+            {% if data.experience and data.experience|length > 0 %}
+                {% for exp in data.experience %}
+                    <div class="experience-item">
+                        {% if exp is mapping %}
+                            <h5>{{ exp.company if exp.company else 'Unknown Company' }}</h5>
+                            <p><strong>Position:</strong> {{ exp.position if exp.position else 'N/A' }}</p>
+                            <p><strong>Dates:</strong> {{ exp.dates if exp.dates else 'N/A' }}</p>
+                            <p><strong>Description:</strong> {{ exp.description if exp.description else 'N/A' }}</p>
+                        {% else %}
+                            <p>{{ exp }}</p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p>No work experience information found.</p>
+            {% endif %}
+        </div>
+
+        <!-- Skills Section -->
+        <div class="result-section">
+            <h2 class="section-title">Skills</h2>
+            {% if data.skills and data.skills|length > 0 %}
+                {% if data.skills is sequence and data.skills is not string %}
+                    {% for skill in data.skills %}
+                        <span class="badge skill-badge">{{ skill }}</span>
+                    {% endfor %}
+                {% else %}
+                    <p>{{ data.skills }}</p>
+                {% endif %}
+            {% else %}
+                <p>No skills information found.</p>
+            {% endif %}
+        </div>
+
+        <!-- Error Section (if any) -->
+        {% if data.error %}
+        <div class="alert alert-warning mt-4">
+            <h4 class="alert-heading">Extraction Warning</h4>
+            <p>{{ data.error }}</p>
+            <hr>
+            <p class="mb-0">
+                The model encountered an issue while extracting information from your CV. 
+                You may want to try again with a different model or ensure your CV is in a clear format.
+            </p>
+            <p class="mt-2">
+                <a href="/" class="btn btn-primary">Try Again</a>
+            </p>
+        </div>
+        {% endif %}
+
+        <!-- Action Buttons -->
+        <div class="text-center mt-4">
+            <a href="{{ url_for('index') }}" class="btn btn-custom-green me-2">Process Another CV</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

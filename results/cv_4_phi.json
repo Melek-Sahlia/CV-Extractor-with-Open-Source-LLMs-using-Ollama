@@ -1,0 +1,34 @@
+{
+    "name": "Sarah Williams",
+    "email": "sarah.williams@example.com",
+    "phone": "+1 (555) 789-0123",
+    "education": [
+        {
+            "institution": "Science University",
+            "degree": "Bachelor's",
+            "field": "Biology",
+            "dates": "2015 - 2019"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Biotech Corp",
+            "position": "Research Scientist",
+            "dates": "2021 - Present",
+            "description": "Developing applications"
+        },
+        {
+            "company": "Research Center",
+            "position": "Lab Technician",
+            "dates": "2019 - 2021",
+            "description": "Performing lab experiments"
+        }
+    ],
+    "skills": [
+        "Molecular Biology",
+        "Data Analysis",
+        "Laboratory Techniques",
+        "Research",
+        "Python"
+    ]
+}

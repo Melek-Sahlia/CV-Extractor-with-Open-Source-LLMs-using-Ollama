@@ -1,0 +1,78 @@
+/* Main Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    max-height: 80px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Green Button Styles */
+.btn-custom-green {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-custom-green:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    color: white;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 30px;
+}
+
+.result-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    color: #28a745;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Progress Bar */
+.progress {
+    height: 25px;
+    margin: 20px 0;
+}
+
+/* Alerts */
+.alerts {
+    margin-bottom: 20px;
+}
+
+/* Skills Badges */
+.skill-badge {
+    background-color: #28a745;
+    color: white;
+    margin: 3px;
+    display: inline-block;
+}
+
+/* Experience and Education Items */
+.experience-item, .education-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+} 

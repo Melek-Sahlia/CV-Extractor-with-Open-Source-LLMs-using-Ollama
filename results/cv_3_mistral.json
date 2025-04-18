@@ -1,0 +1,20 @@
+{
+    "name": "Alex Johnson",
+    "email": "alex.johnson@example.com",
+    "phone": "+1 (555) 456-7890",
+    "education": [
+        "Bachelor of Engineering in Mechanical Engineering, Tech Institute (2014-2018)",
+        "Master of Engineering in Robotics, Engineering University (2018-2020)"
+    ],
+    "experience": [
+        "Robotics Engineer at Tech Solutions (2020-Present)",
+        "Mechanical Engineer at Manufacturing Co. (2018-2020)"
+    ],
+    "skills": [
+        "CAD",
+        "Robotics",
+        "3D Printing",
+        "Project Management",
+        "Python"
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "cv_1.pdf": {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1 (555) 123-4567",
+        "education": [
+            "Bachelor of Science in Computer Science, University of Example (2015-2019)",
+            "Master of Science in Artificial Intelligence, Tech University (2019-2021)"
+        ],
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Natural Language Processing",
+            "Flask",
+            "Docker"
+        ],
+        "experience": [
+            "Software Engineer at Tech Corp (2021-Present)",
+            "Research Assistant at University Lab (2019-2021)"
+        ]
+    },
+    "cv_1.png": {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1 (555) 123-4567",
+        "education": [
+            "Bachelor of Science in Computer Science, University of Example (2015-2019)",
+            "Master of Science in Artificial Intelligence, Tech University (2019-2021)"
+        ],
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Natural Language Processing",
+            "Flask",
+            "Docker"
+        ],
+        "experience": [
+            "Software Engineer at Tech Corp (2021-Present)",
+            "Research Assistant at University Lab (2019-2021)"
+        ]
+    },
+    "cv_2.pdf": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "phone": "+1 (555) 987-6543",
+        "education": [
+            "Bachelor of Arts in Business Administration, Business School (2016-2020)",
+            "Master of Business Administration, Top University (2020-2022)"
+        ],
+        "skills": [
+            "Project Management",
+            "Data Analysis",
+            "Marketing",
+            "Leadership",
+            "Communication"
+        ],
+        "experience": [
+            "Marketing Manager at Global Corp (2022-Present)",
+            "Business Analyst at Consulting Firm (2020-2022)"
+        ]
+    },
+    "cv_2.png": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "phone": "+1 (555) 987-6543",
+        "education": [
+            "Bachelor of Arts in Business Administration, Business School (2016-2020)",
+            "Master of Business Administration, Top University (2020-2022)"
+        ],
+        "skills": [
+            "Project Management",
+            "Data Analysis",
+            "Marketing",
+            "Leadership",
+            "Communication"
+        ],
+        "experience": [
+            "Marketing Manager at Global Corp (2022-Present)",
+            "Business Analyst at Consulting Firm (2020-2022)"
+        ]
+    },
+    "cv_3.pdf": {
+        "name": "Alex Johnson",
+        "email": "alex.johnson@example.com",
+        "phone": "+1 (555) 456-7890",
+        "education": [
+            "Bachelor of Engineering in Mechanical Engineering, Tech Institute (2014-2018)",
+            "Master of Engineering in Robotics, Engineering University (2018-2020)"
+        ],
+        "skills": [
+            "CAD",
+            "Robotics",
+            "3D Printing",
+            "Project Management",
+            "Python"
+        ],
+        "experience": [
+            "Robotics Engineer at Tech Solutions (2020-Present)",
+            "Mechanical Engineer at Manufacturing Co. (2018-2020)"
+        ]
+    },
+    "cv_3.png": {
+        "name": "Alex Johnson",
+        "email": "alex.johnson@example.com",
+        "phone": "+1 (555) 456-7890",
+        "education": [
+            "Bachelor of Engineering in Mechanical Engineering, Tech Institute (2014-2018)",
+            "Master of Engineering in Robotics, Engineering University (2018-2020)"
+        ],
+        "skills": [
+            "CAD",
+            "Robotics",
+            "3D Printing",
+            "Project Management",
+            "Python"
+        ],
+        "experience": [
+            "Robotics Engineer at Tech Solutions (2020-Present)",
+            "Mechanical Engineer at Manufacturing Co. (2018-2020)"
+        ]
+    },
+    "cv_4.pdf": {
+        "name": "Sarah Williams",
+        "email": "sarah.williams@example.com",
+        "phone": "+1 (555) 789-0123",
+        "education": [
+            "Bachelor of Science in Biology, Science University (2015-2019)",
+            "Master of Science in Biotechnology, Research Institute (2019-2021)"
+        ],
+        "skills": [
+            "Molecular Biology",
+            "Data Analysis",
+            "Laboratory Techniques",
+            "Research",
+            "Python"
+        ],
+        "experience": [
+            "Research Scientist at Biotech Corp (2021-Present)",
+            "Lab Technician at Research Center (2019-2021)"
+        ]
+    },
+    "cv_4.png": {
+        "name": "Sarah Williams",
+        "email": "sarah.williams@example.com",
+        "phone": "+1 (555) 789-0123",
+        "education": [
+            "Bachelor of Science in Biology, Science University (2015-2019)",
+            "Master of Science in Biotechnology, Research Institute (2019-2021)"
+        ],
+        "skills": [
+            "Molecular Biology",
+            "Data Analysis",
+            "Laboratory Techniques",
+            "Research",
+            "Python"
+        ],
+        "experience": [
+            "Research Scientist at Biotech Corp (2021-Present)",
+            "Lab Technician at Research Center (2019-2021)"
+        ]
+    },
+    "cv_5.pdf": {
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "+1 (555) 234-5678",
+        "education": [
+            "Bachelor of Arts in Graphic Design, Art School (2016-2020)",
+            "Master of Fine Arts in Digital Media, Design University (2020-2022)"
+        ],
+        "skills": [
+            "Adobe Creative Suite",
+            "UI/UX Design",
+            "Web Design",
+            "Branding",
+            "Illustration"
+        ],
+        "experience": [
+            "Senior Designer at Creative Agency (2022-Present)",
+            "Graphic Designer at Marketing Firm (2020-2022)"
+        ]
+    },
+    "cv_5.png": {
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "+1 (555) 234-5678",
+        "education": [
+            "Bachelor of Arts in Graphic Design, Art School (2016-2020)",
+            "Master of Fine Arts in Digital Media, Design University (2020-2022)"
+        ],
+        "skills": [
+            "Adobe Creative Suite",
+            "UI/UX Design",
+            "Web Design",
+            "Branding",
+            "Illustration"
+        ],
+        "experience": [
+            "Senior Designer at Creative Agency (2022-Present)",
+            "Graphic Designer at Marketing Firm (2020-2022)"
+        ]
+    }
+}

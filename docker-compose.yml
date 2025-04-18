@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: cv_extractor
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./results:/app/results
+      - ./ground_truth:/app/ground_truth
+      - ./evaluation_charts:/app/evaluation_charts
+    environment:
+      - OLLAMA_API_URL=http://ollama:11434/api/generate
+    depends_on:
+      - ollama
+    networks:
+      - cv_network
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - cv_network
+
+networks:
+  cv_network:
+    driver: bridge
+
+volumes:
+  ollama_data:
+    driver: local 

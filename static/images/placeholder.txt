@@ -1,0 +1,4 @@
+This directory is for storing image files.
+
+Logo should be placed in this directory.
+Example: static/images/logo.png 

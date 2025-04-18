@@ -1,0 +1,20 @@
+{
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1 (555) 987-6543",
+    "education": [
+        "Bachelor of Arts in Business Administration, Business School (2016-2020)",
+        "Master of Business Administration, Top University (2020-2022)"
+    ],
+    "skills": [
+        "Project Management",
+        "Data Analysis",
+        "Marketing",
+        "Leadership",
+        "Communication"
+    ],
+    "experience": [
+        "Marketing Manager at Global Corp (2022-Present)",
+        "Business Analyst at Consulting Firm (2020-2022)"
+    ]
+} 

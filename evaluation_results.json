@@ -1,0 +1,675 @@
+{
+    "overall_results": {
+        "llama3": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8
+        },
+        "mistral": {
+            "precision": 0.888888888888889,
+            "recall": 0.8894117647058823,
+            "f1": 0.8888257575757577
+        },
+        "phi": {
+            "precision": 0.7198148148148149,
+            "recall": 0.6989839572192513,
+            "f1": 0.7064920988512242
+        }
+    },
+    "field_results": {
+        "name": {
+            "llama3": 0.8,
+            "mistral": 1.0,
+            "phi": 0.9600000000000002
+        },
+        "email": {
+            "llama3": 0.8,
+            "mistral": 1.0,
+            "phi": 0.9853658536585366
+        },
+        "phone": {
+            "llama3": 0.8,
+            "mistral": 0.9875,
+            "phi": 0.9435867394488084
+        },
+        "education": {
+            "llama3": 0.8,
+            "mistral": 0.6,
+            "phi": 0.4
+        },
+        "experience": {
+            "llama3": 0.8,
+            "mistral": 0.8,
+            "phi": 0.4
+        },
+        "skills": {
+            "llama3": 0.8,
+            "mistral": 0.9454545454545453,
+            "phi": 0.55
+        }
+    },
+    "evaluated_cvs": [
+        "cv_5",
+        "cv_2",
+        "cv_3",
+        "cv_4",
+        "cv_1"
+    ],
+    "active_models": [
+        "phi",
+        "llama3",
+        "mistral"
+    ],
+    "all_comparisons": [
+        {
+            "cv_name": "cv_1",
+            "results": {
+                "llama3": {
+                    "fields": {
+                        "name": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "email": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "phone": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "education": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "experience": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "skills": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    }
+                },
+                "mistral": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 0.8823529411764706,
+                            "f1": 0.9375
+                        },
+                        "education": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 0.6666666666666666,
+                            "recall": 0.8,
+                            "f1": 0.7272727272727272
+                        }
+                    },
+                    "overall": {
+                        "precision": 0.7777777777777778,
+                        "recall": 0.7803921568627451,
+                        "f1": 0.7774621212121212
+                    }
+                },
+                "phi": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 0.9444444444444444,
+                            "recall": 1.0,
+                            "f1": 0.9714285714285714
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 0.6,
+                            "f1": 0.7499999999999999
+                        }
+                    },
+                    "overall": {
+                        "precision": 0.9907407407407408,
+                        "recall": 0.9333333333333332,
+                        "f1": 0.9535714285714286
+                    }
+                }
+            }
+        },
+        {
+            "cv_name": "cv_2",
+            "results": {
+                "llama3": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                },
+                "mistral": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "experience": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.6666666666666666,
+                        "f1": 0.6666666666666666
+                    }
+                },
+                "phi": {
+                    "fields": {
+                        "name": {
+                            "precision": 0.8,
+                            "recall": 0.8,
+                            "f1": 0.8000000000000002
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 0.8636363636363636,
+                            "f1": 0.9268292682926829
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 0.7058823529411765,
+                            "f1": 0.8275862068965517
+                        },
+                        "education": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "experience": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "skills": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 0.4666666666666666,
+                        "recall": 0.3949197860962567,
+                        "f1": 0.42573591253153914
+                    }
+                }
+            }
+        },
+        {
+            "cv_name": "cv_3",
+            "results": {
+                "llama3": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                },
+                "mistral": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                },
+                "phi": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 0.85,
+                            "recall": 1.0,
+                            "f1": 0.9189189189189189
+                        },
+                        "education": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "experience": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "skills": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 0.47500000000000003,
+                        "recall": 0.5,
+                        "f1": 0.48648648648648646
+                    }
+                }
+            }
+        },
+        {
+            "cv_name": "cv_4",
+            "results": {
+                "llama3": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                },
+                "mistral": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                },
+                "phi": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "experience": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1": 0.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 0.6666666666666666,
+                        "recall": 0.6666666666666666,
+                        "f1": 0.6666666666666666
+                    }
+                }
+            }
+        },
+        {
+            "cv_name": "cv_5",
+            "results": {
+                "llama3": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                },
+                "mistral": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                },
+                "phi": {
+                    "fields": {
+                        "name": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "email": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "phone": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "education": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "experience": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "skills": {
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    },
+                    "overall": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1": 1.0
+                    }
+                }
+            }
+        }
+    ]
+}
